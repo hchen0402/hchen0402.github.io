@@ -1,0 +1,407 @@
+html, body, div, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+nav a {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "proxima-nova";
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+nav a.active {
+  color: #fff;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "adobe-garamond-pro";
+  font-size: 32px;
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal; 
+}
+
+/* home.html start */
+#header {
+  width: 100%;
+  height: 35%;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+#header-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.9;
+  height: 60%;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+#header-background-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+  height: 60%;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#header-background img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  vertical-align: middle;
+}
+
+#menu {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  opacity: 1;
+  z-index: 3;
+}
+
+#menu ul {
+  list-style: none;
+  height: 50px;
+}
+
+#menu ul > li {
+  height: 30px;
+  line-height: 30px;
+  width: 120px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+}
+
+#menu ul > li > a {
+  height: 30px;
+  display: block;
+}
+
+.home {
+  width: 85px !important;
+}
+
+.contact {
+  width: 85px !important;
+}
+
+#interest {
+  position: absolute;
+  opacity: 0.5;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) ;
+  -moz-transform: translate(-50%, -50%) ;
+  -ms-transform: translate(-50%, -50%) ;
+  -o-transform: translate(-50%, -50%) ;
+  transform: translate(-50%, -50%) ;
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  z-index: 4;
+}
+
+.main {
+  margin-top: 40%;
+  clear:both;
+}
+
+.main-header {
+  text-align: center;
+  cursor: auto;
+  outline: none
+  font-family: "proxima-nova";
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(26,26,26,.6);
+}
+
+.main-content {
+  width: 60%;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.main-content p {
+  margin-top: 0;
+  line-height: 1.5em;
+  cursor: auto;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.6em;
+  font-family: "proxima-nova";
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(26,26,26,.6);
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.footer p {
+  font-family: "proxima-nova";
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(26,26,26,.6);
+}
+.panel {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 350px;
+  height: 200px;
+  z-index: 99;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.panel-header {
+  text-align: center;
+}
+.panel-item {
+  margin-top: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+.panel-body .first {
+  margin-top: 25px !important;
+}
+.panel-item label {
+  width: 95px;
+  text-align: right;
+  display: inline-block;
+}
+.panel-item span {
+  margin-left: 5px;
+}
+/* home.html end */
+/* biograpy.html start */
+.header-biograpy, .header-experience {
+  height: 50px;
+}
+.header-brand {
+  text-align: center;
+  font-family: "adobe-garamond-pro";
+  font-size: 32px;
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
+.biograpy-content {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+  padding: 10px 0;
+}
+.biograpy-paragraph {
+  text-indent: 20px;
+  font-family: "proxima-nova";
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(26,26,26,.6);
+}
+.main-biograpy {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+.pictures-items {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+.item {
+  position: relative;
+  text-align: center;
+  float: left;
+  height: 100%;
+  width: 31%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  overflow: hidden;
+  *zoom: 1;
+}
+.item img {
+  vertical-align: middle;
+  width: 100%;
+  height: 280px;
+  z-index: 1;
+}
+.item .img-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: #fff;
+  z-index: 2;
+}
+#showImg {
+  display:none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) ;
+  -moz-transform: translate(-50%, -50%) ;
+  -ms-transform: translate(-50%, -50%) ;
+  -o-transform: translate(-50%, -50%) ;
+  transform: translate(-50%, -50%) ;
+  z-index: 2;
+}
+#mask {
+  position: absolute;
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+  background: #000;
+  opacity: 0.5;
+}
+/* biograpy.html end */
+/* experience.html start */
+dl, dt, dd {
+  padding: 0;
+  margin: 0;
+}
+dl {
+  padding: 10px 0;
+  text-indent: 10px;
+}
+dd {
+  text-indent: 20px;
+  padding-bottom: 8px;
+}
+dl dl {
+  padding: 5px 0;
+}
+dl dl dd {
+  text-indent: 35px;
+  padding-bottom: 5px;
+}
+.work-experience {
+  padding: 0 0 25px 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+.work-experience-header, .projects-header, .classes-header{
+  float: left;
+  text-align: right;
+  width: 22%;
+}
+.work-experience-header h1, .projects-header h1, .classes-header h1 {
+  font-family: "adobe-garamond-pro";
+  font-size: 24px;
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
+.work-experience-content p {
+  height: 30px;
+  line-height: 30px;
+}
+.work-experience-content, .projects-content, .classes-content {
+  float: right;
+  width: 73%;
+  margin-left: 3%;
+  margin-top: 5px;
+}
+.projects {
+  border-top: 1px solid #ccc;
+  padding: 25px 0;
+  clear:both;
+  overflow: hidden;
+  *zoom: 1;
+}
+.projects-items {
+  list-style-type: decimal;
+}
+.classes {
+  padding: 25px 0 30px 0;
+  border-top: 1px solid #ccc;
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+}
+.class-item {
+  display: inline-block;
+  float: left;
+  width: 46%;
+  height: 25px;
+  margin: 2%;
+}
+.show-detail {
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding:0 10px;
+  cursor: pointer;
+}
+.detail {
+  display: none;
+  cursor: pointer;
+}
+.blank {
+  width: 20px;
+  display: inline-block;
+}
+.same {
+  width: 355px;
+  display: inline-block;
+}
+/* experience.html end */
